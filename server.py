@@ -1,14 +1,4 @@
 #!/usr/bin/env python
-#############################################################################
-# Program:
-#    Lab FinalProj, Computer Communication and Networking
-#    Brother Jones, CS 460
-# Author:
-#    McKay Smalley
-# Summary:
-#    This is a chat server, that keeps track of the connections. When a
-#    message is recieved, it is transmitted to all the connected clients.
-#############################################################################
 import sys
 from socket import *
 import select
